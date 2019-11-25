@@ -1,6 +1,6 @@
 pragma solidity ^0.5.11;
 
-contract HelloWorldContract {
+contract MyContract {
     string public value;
 
     constructor() public {
