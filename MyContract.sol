@@ -1,17 +1,13 @@
 pragma solidity ^0.5.11;
 
 contract HelloWorldContract {
-    string value
+    string public value;
 
     constructor() public {
         value = "myValue";
     }
 
-    function get() public view returns(string) {
-        return value;
-    }
-
-    function set(string _value) public {
+    function set(string memory _value) public {
         value = _value;
     }
 }
